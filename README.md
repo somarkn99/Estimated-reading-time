@@ -10,9 +10,11 @@ This package provides a simple way to calculate and display the estimated readin
 
 You can install the package via composer:
 
+
 ```bash
 composer require somarkn99/estimated-reading-time
 ```
+[A Wordpress version of this package is available as a plugin here](https://wordpress.org/plugins/arabic-english-estimated-reading-time/)
 
 ## Usage
 
