@@ -1,0 +1,34 @@
+{
+    "name": "somarkn99/estimated-reading-time",
+    "description": "A simple package to calculate and display estimated reading time in both Arabic and English.",
+    "keywords": ["reading time", "estimated reading time", "laravel", "package", "arabic", "english"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Somarkn99\\EstimatedReadingTime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Somar Kesen",
+            "email": "kesen.somar.99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Somarkn99\\EstimatedReadingTime\\EstimatedReadingTimeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
